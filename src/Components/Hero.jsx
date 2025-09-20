@@ -74,6 +74,8 @@ const Hero = () => {
     <img src='/images/hero-left-leaf.png' alt='left-leaf' className='left-leaf'/>
     <img src='/images/hero-right-leaf.png' alt='right-leaf' className='right-leaf'/>
 
+    <img src='/images/arrow.png' alt='arrow-leaf' className='absolute right-40 top-70 hidden md:block'/>
+
     <div className='body'>
         <div className='content'>
             <div className='space-y-5 hidden md:block'>
