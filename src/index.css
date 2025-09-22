@@ -245,7 +245,7 @@ body {
         }
     }
 
-    #art {
+#art {
         @apply flex-center flex-col min-h-dvh p-5 mt-20 relative radial-gradient;
 
         h2 {
@@ -266,43 +266,10 @@ body {
             }
 
             div {
-                @apply opacity-0 md:px-0 px-5 space-y-5 absolute md:bottom-5 bottom-52 left-1/2 -translate-x-1/2;
+                @apply opacity-0 md:px-0 px-5 space-y-5 absolute md:bottom-5 bottom-52  left-1/2 -translate-x-1/2 sm:max-h-10;
 
                 h3 {
-                    @apply md:text-5xl text-2xl text-center font-serif md:w-full w-80 text-white;
-                }
-
-                p {
-                    @apply text-lg text-center;
-                }
-            }
-        }
-    }
-#art {
-        @apply flex-center flex-col min-h-dvh p-5 mt-20 relative radial-gradient;
-
-        h2 {
-            @apply relative md:text-[20vw] text-8xl text-nowrap leading-none font-modern-negra text-center text-[#505050] mb-8;
-        }
-
-        .content {
-            @apply flex md:flex-row flex-col justify-between md:mb-16 md:mt-0 mt-40 gap-10;
-        }
-
-        .cocktail-img {
-            @apply md:w-[60vw] w-full h-[50vh] md:h-[60vh] rounded-4xl overflow-hidden absolute top-0 md:top-1/2 md:-translate-y-1/2 left-1/2 -translate-x-1/2;
-        }
-
-        .masked-container {
-            h2 {
-                @apply text-4xl md:text-5xl font-modern-negra text-center mb-10 text-white mt-32;
-            }
-
-            div {
-                @apply opacity-0 md:px-0 px-5 space-y-5 absolute md:bottom-0  left-1/2 -translate-x-1/2 ;
-
-                h3 {
-                    @apply md:text-4xl text-2xl text-center font-serif md:w-full w-80 text-white max-w-[15rem] sm:max-w-full;
+                    @apply md:text-4xl text-2xl text-center font-serif md:w-full w-80 text-white max-w-[15rem] sm:max-w-full ;
                 }
 
                 p {
@@ -312,7 +279,7 @@ body {
         }
     }
     #menu {
-        @apply relative w-full md:mt-40 mt-0 2xl:px-0 px-5 py-20 radial-gradient;
+        @apply relative w-full md:mt-40 mt-0  px-5 py-20 radial-gradient;
 
         #m-left-leaf {
             @apply object-contain absolute -bottom-20 left-0 md:w-fit w-1/3;
@@ -380,7 +347,7 @@ body {
     }
 
     #contact {
-        @apply relative md:mt-20 mt-0 px-4 text-center w-full overflow-hidden radial-gradient;
+        @apply relative mt-20  px-4 text-center w-full overflow-hidden radial-gradient;
 
         #f-left-leaf {
             @apply absolute bottom-0 left-0 pointer-events-none lg:w-fit w-1/3;
@@ -388,6 +355,9 @@ body {
 
         #f-right-leaf {
             @apply absolute top-0 right-0 pointer-events-none hidden lg:block;
+        }
+        #footer-drinks {
+            @apply absolute bottom-0 right-0 lg:w-96 w-1/3 pointer-events-none;
         }
 
         .content {
@@ -406,8 +376,6 @@ body {
             }
         }
 
-        .drink-img {
-            @apply absolute bottom-0 right-0 lg:w-96 w-1/3 pointer-events-none;
-        }
+        
     }
 }

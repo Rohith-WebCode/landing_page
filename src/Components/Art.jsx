@@ -64,8 +64,8 @@ const isMobile = useMediaQuery({ maxWidth: 767 })
 		 <div id="masked-content">
 			<h3>Made with Craft, Poured with Passion</h3>
 			<p>This isn’t just a drink. It’s a carefully crafted moment made just for you.</p>
-            <img src='/images/drink4.png' className='absolute  -bottom-25 -left-14 md:-top-120 md:-left-70 rotate-12 pointer-events-none w-[112px] h-[120px] md:w-[210px] md:h-[225px]'/>
-            <img src='/images/cup-2.png' className='absolute -bottom-25 -right-14 md:bottom-0 md:-right-70 pointer-events-none  w-[112px] h-[120px] md:w-[210px] md:h-[225px]'/>
+            <img src='/images/drink4.png' className='absolute -bottom-25 -left-14 md:-top-120 md:-left-70 lg:-left-100 rotate-12 pointer-events-none w-[112px] h-[120px] md:w-[210px] md:h-[225px]'/>
+            <img src='/images/cup-2.png' className='absolute -bottom-25 -right-14 md:bottom-0 md:-right-70 lg:-right-100 pointer-events-none  w-[112px] h-[120px] md:w-[210px] md:h-[225px]'/>
 		 </div>
 		</div>
 	 </div>
